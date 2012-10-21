@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Ajax Connection Queue</title>
+    <script src="utils.js"></script>
+    <script src="queue.js"></script>
+    <script type="text/javascript">
+      addEvent(window, 'load', function() {
+        // Implementation.
+        var q = new DED.Queue;
+        q.setRetryCount(5);
+        q.setTimeout(3000);
+
+        var items = $('items');
+        var results = $('results');
+        var queue = $('queue-items');
+
+        // Keeping track of my own requests as a client.
+        var requests = [];
+
+        // Notifier for each request that is being flushed.
+        q.onFlush.subscribe(function(data) {
+          results.innerHTML = data;
+          requests.shift();
+          queue.innerHTML = requests.toString();
+        });
+        // Notifier for any failures.
+        q.onFailure.subscribe(function() {
+          results.innerHTML += ' <span style="color:red;">Connection Error!</span>';
+        });
+        // Notifier of the completion of the flush.
+        q.onComplete.subscribe(function() {
+          results.innerHTML += ' <span style="color:green;">Completed!</span>';
+        });
+        var actionDispatcher = function(element) {
+          switch (element) {
+            case 'flush':
+              q.flush();
+              break;
+            case 'dequeue':
+              q.dequeue();
+              requests.pop();
+              queue.innerHTML = requests.toString();
+              break;
+            case 'pause':
+              q.pause();
+              break;
+            case 'clear':
+              q.clear();
+              requests = [];
+              queue.innerHTML = '';
+              break;
+          }
+        };
+                
+        var addRequest = function(request) {
+          var data = request.split('-')[1];
+          q.add({
+            method: 'GET',
+            uri: 'bridge-connection-queue.php?ajax=true&s='+data,
+            params: null
+          });
+          requests.push(data);
+          queue.innerHTML = requests.toString();
+        };
+        addEvent(items, 'click', function(e) {
+          var e = e || window.event;
+          var src = e.target || e.srcElement;
+          try {
+            e.preventDefault();
+          }
+          catch (ex) {
+            e.returnValue = false;
+          }
+          actionDispatcher(src.id);
+        });
+
+        var adders = $('adders');
+        addEvent(adders, 'click', function(e) {
+          var e = e || window.event;
+          var src = e.target || e.srcElement;
+          try {
+            e.preventDefault();
+          }
+          catch (ex) {
+            e.returnValue = false;
+          }
+          addRequest(src.id);
+        });
+      });
+    </script>
+    <style type="text/css" media="screen">
+      body { font: 100% georgia,times,serif; }
+      h1, h2 { font-weight: normal; }
+      #queue-items { height: 1.5em; }
+      #add-stuff {
+        padding: .5em;
+        background: #ddd;
+        border: 1px solid #bbb;
+      }
+      #results-area { padding: .5em;border: 1px solid #bbb; }
+    </style>
+  </head>
+  <body id="example">
+    <div id="doc">
+      <h1>Ajax Connection Queue</h1>
+      <div id="queue-items"></div>
+      <div id="add-stuff">
+        <h2>Add Requests to Queue</h2>
+        <ul id="adders">
+          <li><a href="#" id="action-01">Add "01" to Queue</a></li>
+          <li><a href="#" id="action-02">Add "02" to Queue</a></li>
+          <li><a href="#" id="action-03">Add "03" to Queue</a></li>
+        </ul>
+      </div>
+      <h2>Other Queue Actions</h2>
+      <ul id='items'>
+        <li><a href="#" id="flush">Flush</a></li>
+        <li><a href="#" id="dequeue">Dequeue</a></li>
+        <li><a href="#" id="pause">Pause</a></li>
+        <li><a href="#" id="clear">Clear</a></li>
+      </ul>
+      <div id="results-area">
+        <h2>Results: </h2>
+        <div id="results"></div>
+      </div>
+    </div>
+  </body>
+</html>
