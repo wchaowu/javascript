@@ -40,6 +40,7 @@ function extend(subClass, superClass) {
   subClass.prototype = new F();
   subClass.prototype.constructor = subClass;
 
+  // The second way, to add the below code
   subClass.superclass = superClass.prototype;
   if(superClass.prototype.constructor == Object.prototype.constructor) {
     superClass.prototype.constructor = superClass;
@@ -60,6 +61,6 @@ Author.prototype.getBooks = function() {
 };
 
 Author.prototype.getName = function() {
-  var name = Author.superclass.getName.call(this);
+  var name = Author.superclass.getName.call(this);  // The second way can access superClass method like this
   return name + ', Author of ' + this.getBooks().join(', ');
 };

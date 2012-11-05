@@ -12,7 +12,7 @@ GiantCorp.DataParser = {
   // Public method.
   stringToArray: function(str, delimiter, stripWS) {
     if(stripWS) {
-      str = this._stripWhitespace(str);
+      str = this._stripWhitespace(str);  // 在单例模式中，推荐使用 GiantCorp.DataParser._stripWhitespace() 这种调用方式，防止弄错了this作用域
     }
     var outputArray = this._stringSplit(str, delimiter);
     return outputArray;

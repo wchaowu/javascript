@@ -21,7 +21,7 @@ GiantCorp.DataParser = (function() {
       if(stripWS) {
         str = stripWhitespace(str);
       }
-      var outputArray = stringSplit(str, delimiter);
+      var outputArray = stringSplit(str, delimiter);  // 这里不再使用 this. 或 GiantCorp.DataParser. 这些前缀只用于访问单例对象的公用属性
       return outputArray;
     }
   };
