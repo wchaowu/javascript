@@ -1,6 +1,12 @@
+<html>
+<head>
+	
+</head>
+<body>
+<script>
 /* AjaxHandler interface. */
 
-var AjaxHandler = new Interface('AjaxHandler', ['request', 'createXhrObject']);
+// var AjaxHandler = new Interface('AjaxHandler', ['request', 'createXhrObject']);
 
 /* SimpleHandler class. */
 
@@ -34,7 +40,7 @@ SimpleHandler.prototype = {
       }
       // If we reach this point, method[i] worked.
       this.createXhrObject = methods[i]; // Memoize the method.  记住该方法
-      return methods[i]();  // 原书中的代码少了一对括号，这里需要多加一对括号才可以正确返回XMLHttpRequeset
+      return methods[i]();
     }
     
     // If we reach this point, none of the methods worked.
@@ -50,3 +56,7 @@ var callback = {
   failure: function(statusCode) { alert('Failure: ' + statusCode); } 
 };
 myHandler.request('GET', 'script.php', callback);
+
+</script>​
+</body>
+</html>
