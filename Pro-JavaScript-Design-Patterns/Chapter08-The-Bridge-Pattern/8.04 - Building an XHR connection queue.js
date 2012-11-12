@@ -1,3 +1,4 @@
+// XMLHttpRequest的核心工具类
 var asyncRequest = (function() {
   function handleReadyState(o, callback) {
     var poll = window.setInterval(
@@ -48,7 +49,7 @@ var asyncRequest = (function() {
   };
 })();
 
-
+// 有了这个方法，就可以用类似于讲述链式调用的第六章中的风格进行开发
 Function.prototype.method = function(name, fn) {
   this.prototype[name] = fn;
   return this;
@@ -80,7 +81,7 @@ if ( !Array.prototype.filter ) {
   });
 }
 
-
+// 添加观察者系统
 window.DED = window.DED || {};
 DED.util = DED.util || {};
 DED.util.Observer = function() {
@@ -108,9 +109,9 @@ DED.util.Observer.prototype = {
   }
 };
 
-
+// 开发队列的基本框架
 DED.Queue = function() {
-  // Queued requests.
+  // Queued requests. 数组字面量，用于保存对每一个请求的引用
   this.queue = [];
 
   // Observable Objects that can notify the client of interesting moments
@@ -128,6 +129,7 @@ DED.Queue = function() {
   this.timer = {};
 };
 
+// 为框架提供需要的方法
 DED.Queue.
   method('flush', function() {
     if (!this.queue.length > 0) {

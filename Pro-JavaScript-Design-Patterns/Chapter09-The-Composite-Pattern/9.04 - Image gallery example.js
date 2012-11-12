@@ -1,11 +1,11 @@
 // Interfaces.
-
+// 创建图片库和图片接口
 var Composite = new Interface('Composite', ['add', 'remove', 'getChild']);
 var GalleryItem = new Interface('GalleryItem', ['hide', 'show']);
 
 
 // DynamicGallery class.
-
+// 创建动态图片库类
 var DynamicGallery = function(id) { // implements Composite, GalleryItem
   this.children = [];
 
@@ -17,12 +17,13 @@ var DynamicGallery = function(id) { // implements Composite, GalleryItem
 DynamicGallery.prototype = {
 
   // Implement the Composite interface.
-
+  // 添加子元素
   add: function(child) {
     Interface.ensureImplements(child, Composite, GalleryItem);
     this.children.push(child);
     this.element.appendChild(child.getElement());
   },
+  // 移除子元素
   remove: function(child) {
     for(var node, i = 0; node = this.getChild(i); i++) {
       if(node == child) {
@@ -32,18 +33,20 @@ DynamicGallery.prototype = {
     }
     this.element.removeChild(child.getElement());
   },
+  // 获取子元素
   getChild: function(i) {
     return this.children[i];
   },
 
   // Implement the GalleryItem interface.
-  
+  // 隐藏该图片库的所有子元素
   hide: function() {
     for(var node, i = 0; node = this.getChild(i); i++) {
       node.hide();
     }
     this.element.style.display = 'none';
   },
+  // 显示该图片库的所有子元素
   show: function() {
     this.element.style.display = 'block';
     for(var node, i = 0; node = this.getChild(i); i++) {
@@ -52,7 +55,7 @@ DynamicGallery.prototype = {
   },
   
   // Helper methods.
-  
+  // 获取图片库的dom节点
   getElement: function() {
     return this.element;
   }

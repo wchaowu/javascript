@@ -9,9 +9,10 @@
     <script type="text/javascript">
       addEvent(window, 'load', function() {
         // Implementation.
+        // 创建队列
         var q = new DED.Queue;
-        q.setRetryCount(5);
-        q.setTimeout(3000);
+        q.setRetryCount(5);  // 重试次数
+        q.setTimeout(3000); 
 
         var items = $('items');
         var results = $('results');
