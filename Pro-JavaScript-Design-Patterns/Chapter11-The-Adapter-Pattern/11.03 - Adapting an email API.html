@@ -13,11 +13,14 @@
           font-size: 1.3em;
         }
       </style>
+      <!-- 导入基本工具集 -->
       <script src="lib-utils.js"></script>
       <script type="text/javascript">
         // application utilities
         var DED = {};
+        // 添加一些应用程序工具
         DED.util = {
+          // 用第二个参数传入的对象的属性值替换第一个参数传入的字符串中的相关部分
           substitute: function (s, o) {
             return s.replace(/{([^{}]*)}/g,
               function (a, b) {
@@ -26,6 +29,7 @@
               }
             );
           },
+          // ajax请求
           asyncRequest: function() {
             function handleReadyState(o, callback) {
               var poll = window.setInterval(
@@ -78,6 +82,7 @@
         }
         
         // dedMail application interface.
+        // 
         var dedMail = (function() {
           function request(id, type, callback) {
             DED.util.asyncRequest(
@@ -89,6 +94,8 @@
             );
           }
           return {
+          	// 该例子只实现了getMail方法，根据所提供的ID从服务器获取邮件，消息加载结束后，
+          	// 作为参数传给getMail方法的回调函数callback将被调用。
             getMail: function(id, callback) {
               request(id, 'all', callback);
             },
@@ -130,7 +137,7 @@
                 details += '{message}</p>';
                 messagePane.innerHTML = DED.util.substitute(details, resp);
               }
-           }; 
+           };
         })(); 
         
         // Set up mail implementation.
