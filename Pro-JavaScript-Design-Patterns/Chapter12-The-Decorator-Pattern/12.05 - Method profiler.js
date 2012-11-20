@@ -1,5 +1,5 @@
 /* ListBuilder class. */
-
+// 一个测试的样例类，其唯一的目的是在网页上创建一个有序列表
 var ListBuilder = function(parent, listLength) {
   this.parentEl = $(parent);
   this.listLength = listLength;
@@ -17,7 +17,7 @@ ListBuilder.prototype = {
 };
 
 /* SimpleProfiler class. */
-
+// 创建一个专用于这个ListBuilder类的装饰者，记录执行buildList方法所耗用的时间
 var SimpleProfiler = function(component) {
   this.component = component;
 };
@@ -39,7 +39,7 @@ list.buildList(); // Creates the list and displays "buildList: 298 ms".
 
 
 /* MethodProfiler class. */
-
+// 对上面的装饰者进行通用化改造，使其可用于任何对象。
 var MethodProfiler = function(component) {
   this.component = component;
   this.timers = {};

@@ -1,10 +1,10 @@
 /* The Bicycle interface. */
-
+// 自行车接口
 var Bicycle = new Interface('Bicycle', ['assemble', 'wash', 'ride', 'repair', 
     'getPrice']);
 
 /* The AcmeComfortCruiser class. */
-
+// 创建一辆自行车
 var AcmeComfortCruiser = function() { // implements Bicycle
   ...
 };
@@ -27,7 +27,7 @@ AcmeComfortCruiser.prototype = {
 };
 
 /* The BicycleDecorator abstract decorator class. */
-
+// 创建装饰者的抽象类，继承者Bicycle接口
 var BicycleDecorator = function(bicycle) { // implements Bicycle
   Interface.ensureImplements(bicycle, Bicycle);
   this.bicycle = bicycle;
@@ -51,7 +51,7 @@ BicycleDecorator.prototype = {
 };
 
 /* HeadlightDecorator class. */
-
+// 创建一个装饰者
 var HeadlightDecorator = function(bicycle) { // implements Bicycle
   this.superclass.constructor(bicycle); // Call the superclass's constructor.
 }
@@ -65,7 +65,7 @@ HeadlightDecorator.prototype.getPrice = function() {
 
 
 /* TaillightDecorator class. */
-
+// 创建一个装饰者
 var TaillightDecorator = function(bicycle) { // implements Bicycle
   this.superclass.constructor(bicycle); // Call the superclass's constructor.
 }

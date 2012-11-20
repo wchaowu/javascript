@@ -1,9 +1,11 @@
+// 一个简单的函数装饰者的例子
 function upperCaseDecorator(func) {
   return function() {
     return func.apply(this, arguments).toUpperCase();
   }
 }
-
+// 这个装饰者可以用来创建新函数
+// 如下，先定义一个普通函数，然后将其装饰为一个新函数
 function getDate() {
   return (new Date()).toString();
 }

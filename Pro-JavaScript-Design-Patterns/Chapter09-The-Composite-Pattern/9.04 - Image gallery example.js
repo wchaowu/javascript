@@ -62,7 +62,7 @@ DynamicGallery.prototype = {
 };
 
 // GalleryImage class.
-
+// 图片类
 var GalleryImage = function(src) { // implements Composite, GalleryItem
   this.element = document.createElement('img');
   this.element.className = 'gallery-image';
