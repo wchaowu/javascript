@@ -5,7 +5,7 @@ var Publication = new Interface('Publication', ['getIsbn', 'setIsbn', 'getTitle'
 var Book = function(isbn, title, author) { ... } // implements Publication
 
 /* Library interface. */
-
+// 创建一个图书馆接口
 var Library = new Interface('Library', ['findBooks', 'checkoutBook', 'returnBook']);
 
 /* PublicLibrary class. */
@@ -17,6 +17,7 @@ var PublicLibrary = function(books) { // implements Library
   }
 };
 PublicLibrary.prototype = {
+  // 查书
   findBooks: function(searchString) {
     var results = [];
     for(var isbn in this.catalog) {
@@ -28,6 +29,7 @@ PublicLibrary.prototype = {
     }
     return results;
   },
+  // 借书
   checkoutBook: function(book) {
     var isbn = book.getIsbn();
     if(this.catalog[isbn]) {
@@ -44,6 +46,7 @@ PublicLibrary.prototype = {
       throw new Error('PublicLibrary: book ' + book.getTitle() + ' not found.');
     }
   },
+  // 还书
   returnBook: function(book) {
     var isbn = book.getIsbn();
     if(this.catalog[isbn]) {
