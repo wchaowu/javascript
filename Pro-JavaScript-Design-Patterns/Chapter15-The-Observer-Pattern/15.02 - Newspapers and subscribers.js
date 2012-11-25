@@ -2,6 +2,9 @@
   * Newspaper Vendors
   * setup as new Publisher objects
 */
+/**
+ * 这个例子中拥有订阅和退订权的一方变成了订阅者，负责发送数据的还是发布者一方。
+ */
 var NewYorkTimes = new Publisher;
 var AustinHerald = new Publisher;
 var SfChronicle = new Publisher;
@@ -32,6 +35,7 @@ var Quadaras = function(from) {
   * Austin Herald and Chronicle. And the Quadaras
   * respectfully subscribe to the Herald and the Chronicle
 */
+// 订阅者拥有subscribe和unsubscribe方法。订阅者只是普通的回调函数，那两个方法是通过扩展Function的prototype而加入的。
 Joe.
   subscribe(NewYorkTimes).
   subscribe(SfChronicle);
@@ -49,6 +53,7 @@ Quadaras.
   * Then at any given time in our application, our publishers can send 
   * off data for the subscribers to consume and react to.
 */
+// 发布者拥有deliver方法
 NewYorkTimes.
   deliver('Here is your paper! Direct from the Big apple');
 AustinHerald.
