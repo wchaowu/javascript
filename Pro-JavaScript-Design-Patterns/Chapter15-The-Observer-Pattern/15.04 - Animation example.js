@@ -1,4 +1,5 @@
 // Publisher API
+// 使用前面的Publisher工具实现动画的三个事件
 var Animation = function(o) {
   this.onStart = new Publisher,
   this.onComplete = new Publisher,

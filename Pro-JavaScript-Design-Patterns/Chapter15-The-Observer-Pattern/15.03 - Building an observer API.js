@@ -13,7 +13,7 @@ Publisher.prototype.deliver = function(data) {
   // 返回this用作返回值，所以可以对该方法进行链式调用
   return this;
 };
-
+// 给予订阅者订阅的能力
 Function.prototype.subscribe = function(publisher) {
   var that = this;
   var alreadyExists = publisher.subscribers.some(
@@ -28,7 +28,7 @@ Function.prototype.subscribe = function(publisher) {
   }
   return this;
 };
-
+// 退订方法，该方法供订阅者用来停止对指定发布者的观察
 Function.prototype.unsubscribe = function(publisher) {
   var that = this;
   publisher.subscribers = publisher.subscribers.filter(
@@ -40,7 +40,7 @@ Function.prototype.unsubscribe = function(publisher) {
   );
   return this;
 };
-
+// 有些订阅者在监听到某种一次性的事件之后会在回调阶段立刻退订该事件，大致做法如下
 var publisherObject = new Publisher;
 
 var observerObject = function(data) {
