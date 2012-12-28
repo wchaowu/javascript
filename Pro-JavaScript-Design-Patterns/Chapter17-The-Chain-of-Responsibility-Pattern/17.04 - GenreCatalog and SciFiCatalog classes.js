@@ -1,5 +1,5 @@
 /* GenreCatalog class, used as a superclass for specific catalog classes. */
-
+// 链上的对象，分类目录对象的实现
 var GenreCatalog = function() { // implements Catalog
   this.successor = null;
   this.catalog = [];
@@ -33,9 +33,10 @@ GenreCatalog.prototype = {
 
 
 /* SciFiCatalog class. */
-
+// 从这个超类中派生一个分类目录
 var SciFiCatalog = function() {}; // implements Catalog
 extend(SciFiCatalog, GenreCatalog);
+// 这个方法对图书的书名和类别进行检查，判断是否二者中有一个能够匹配搜索用词。
 SciFiCatalog.prototype._bookMatchesCriteria = function(book) {
   var genres = book.getGenres();
   if(book.getTitle().match(/space/i)) {

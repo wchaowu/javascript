@@ -1,5 +1,5 @@
 /* Commands using closures. */
-
+// 这种方法不需要创建一个具有execute方法的对象，而是把想要执行的方法包装在闭包中。
 function makeStart(adObject) {
   return function() { 
     adObject.start();

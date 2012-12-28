@@ -4,7 +4,7 @@ var Composite = new Interface('Composite', ['add', 'remove', 'getChild']);
 var GalleryItem = new Interface('GalleryItem', ['hide', 'show']);
 
 /* DynamicGallery class. */
-
+// 动态图片库
 var DynamicGallery = function(id) { // implements Composite, GalleryItem
   this.children = [];
   this.element = document.createElement('div');
@@ -49,7 +49,7 @@ DynamicGallery.prototype = {
 };
 
 /* GalleryImage class. */
-
+// 图片
 var GalleryImage = function(src) { // implements Composite, GalleryItem
   this.element = document.createElement('img');
   this.element.className = 'gallery-image';

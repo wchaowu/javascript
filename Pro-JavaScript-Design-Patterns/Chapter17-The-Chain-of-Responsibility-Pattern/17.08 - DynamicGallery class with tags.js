@@ -2,6 +2,7 @@
 
 var Composite = new Interface('Composite', ['add', 'remove', 'getChild',
     'getAllLeaves']);
+// 添加使用标签进行搜索的方法
 var GalleryItem = new Interface('GalleryItem', ['hide', 'show', 'addTag',
     'getPhotosWithTag']);
 
@@ -9,6 +10,7 @@ var GalleryItem = new Interface('GalleryItem', ['hide', 'show', 'addTag',
 
 var DynamicGallery = function(id) { // implements Composite, GalleryItem
   this.children = [];
+  // 标签
   this.tags = [];
   this.element = document.createElement('div');
   this.element.id = id;
@@ -29,6 +31,7 @@ DynamicGallery.prototype = {
     }
     return leaves;
   },
+  // 职责链模式从组合对象中查找对应标签的对象
   getPhotosWithTag: function(tag) {
     // First search in this object's tags; if the tag is found here, we can stop
     // the search and just return all the leaf nodes.
@@ -49,7 +52,7 @@ DynamicGallery.prototype = {
 };
 
 /* GalleryImage class. */
-
+// 在叶类中的实现很简单，返回的结果都只包含叶对象自身。
 var GalleryImage = function(src) { // implements Composite, GalleryItem
   this.element = document.createElement('img');
   this.element.className = 'gallery-image';

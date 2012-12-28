@@ -1,5 +1,5 @@
 /* Movement commands. */
-
+// 删除所有命令对象的undo方法，因为命令对象代表的操作现在不再可逆
 var MoveUp = function(cursor) { // implements Command
   this.cursor = cursor;
 };
@@ -10,7 +10,7 @@ MoveUp.prototype = {
 };
 
 /* Cursor class, with an internal command stack. */
-
+// 原来用来记录命令的栈undoStack变成了该类的内部属性commandStack
 var Cursor = function(width, height, parent) {
   this.width = width;
   this.height = height;
@@ -53,7 +53,7 @@ Cursor.prototype = {
 };
 
 /* UndoButton class. */
-
+// 用户界面类
 var UndoButton = function(label, parent, cursor) {
   this.element = document.createElement('button');
   this.element.innerHTML = label;

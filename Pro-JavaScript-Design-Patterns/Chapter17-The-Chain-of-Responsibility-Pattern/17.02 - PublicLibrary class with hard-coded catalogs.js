@@ -16,6 +16,8 @@ PublicLibrary.prototype = {
   findBooks: function(searchString) { ... },
   checkoutBook: function(book) { ... },
   returnBook: function(book) { ... },
+  // 这里需要分别对每个图书分类调用handleFilingRequest方法
+  // 如果想增加更多图书类别那就需要修改构造函数和addBook方法这两处的代码。
   addBook: function(newBook) {
     // Always add the book to the main catalog.
     this.catalog[newBook.getIsbn()] = { book: newBook, available: true };

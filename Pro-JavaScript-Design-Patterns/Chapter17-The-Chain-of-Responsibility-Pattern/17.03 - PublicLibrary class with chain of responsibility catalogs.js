@@ -1,5 +1,5 @@
 /* PublicLibrary class, with genre catalogs in a chain of responsibility. */
-
+// 改进方法
 var PublicLibrary = function(books, firstGenreCatalog) { // implements Library
   this.catalog = {};
   this.firstGenreCatalog = firstGenreCatalog;
@@ -25,7 +25,9 @@ PublicLibrary.prototype = {
 // -----------------------------------------------------------------------------
 // Usage example.
 // -----------------------------------------------------------------------------
-
+// 这个例子中，原来的链上有5个环节，第6个环节是后来加的。这意味着图书馆每增加一本书都会通过调用链上第一个环节的
+// handleFilingRequest方法发起对该书的编目请求。该请求将沿目录链逐一经过6个目录，最后从链尾离开。
+// 链上新增的任何目录都会被挂到链尾。
  // Instantiate the catalogs.
 var biographyCatalog = new BiographyCatalog();
 var fantasyCatalog = new FantasyCatalog();
