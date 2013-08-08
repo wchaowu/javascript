@@ -36,6 +36,10 @@ github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://
 11 Observer-Pattern <br />
 12 Comman-Pattern <br />
 13 Chain-of-Responsibility-Pattern <br />
+
+<h3>Javascript-疑问</h3>
+1 function前加操作符
+
 <h3>HTML5<h5>
 
 ------------------------
