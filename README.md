@@ -29,3 +29,7 @@ github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://
 15 Observer-Pattern <br />
 16 Comman-Pattern <br />
 17 Chain-of-Responsibility-Pattern <br />
+
+------------------------
+参考资料
+ <a href="http://www.itzhai.com">http://www.itzhai.com</a>
