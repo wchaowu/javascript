@@ -10,13 +10,12 @@ github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://
 积累的一些javascript的写法
 包含javascript的基础语法，面向对象的实现和设计模式实现
 
-目录的Demo 建议大家按照顺序看
-<h3>object-oriented</h3>
-1.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Expressive-JavaScript">JavaScript Expressive </a> <br />
-2.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Interfaces"> Interfaces </a> <br />
-3.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Introduction">Introduction</a> <br />
-4.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Inheritance"> Inheritance </a> <br />
-<h3>Javascript-Design-Pattern</h3>
+目录的Demo
+
+1 Expressive <br />
+2 Interfaces <br />
+3 Encapsulation-and-Information-Hiding <br />
+4 Inheritance <br />
 5 Singleton-Pattern <br />
 6 Chaining <br />
 7 Factory-Pattern <br />
