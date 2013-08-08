@@ -13,10 +13,10 @@ github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://
 目录的Demo 建议大家按照顺序看
 
 1.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented"> Expressive</a> <br />
+2. <a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Interfaces"> Interfaces </a> <br />
+3. <a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Encapsulation-and-Information-Hiding">Encapsulation-and-Information-Hiding</a> <br />
+4.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Inheritance"> Inheritance </a> <br />
 
-2 Interfaces <br />
-3 Encapsulation-and-Information-Hiding <br />
-4 Inheritance <br />
 5 Singleton-Pattern <br />
 6 Chaining <br />
 7 Factory-Pattern <br />
