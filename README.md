@@ -1,13 +1,12 @@
-Author:scott (吴超武)
-Email:wchaowu@gmail.com
+--------------------------------------------------------------------------------
+Version 1.0.0
+--------------------------------------------------------------------------------
+Author:scott (吴超武) <br />
+Email:wchaowu@gmail.com <br />
 github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://github.com/wchaowu/</a>
-<div id="weibowidget">
-<script type="text/javascript">
-var weibocode = '<if';
-weibocode +='rame width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=2000508384&verifier=2b028f79&dpc=1">';
-document.getElementById('weibowidget').innerHTML = weibocode;
-</script>
-</div>
+<br />
+<br />
+
 积累的一些javascript的写法
 包含javascript的基础语法，面向对象的实现和设计模式实现
 
