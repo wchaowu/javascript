@@ -136,9 +136,10 @@
                 details += '<p><strong>Message:</strong><br>';
                 details += '{message}</p>';
                 messagePane.innerHTML = DED.util.substitute(details, resp);
-              }
-           };
-        })(); 
+              });
+           }
+          }
+        } )();
         
         // Set up mail implementation.
         addEvent(window, 'load', function() {
