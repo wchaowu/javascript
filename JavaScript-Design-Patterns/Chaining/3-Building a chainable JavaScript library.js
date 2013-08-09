@@ -1,4 +1,5 @@
 // Include syntactic sugar to help the development of our interface.
+
 Function.prototype.method = function(name, fn) {
   this.prototype[name] = fn;
   return this;

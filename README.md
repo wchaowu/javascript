@@ -2,7 +2,7 @@
 Version 1.0.0
 --------------------------------------------------------------------------------
 Author:scott (吴超武) <br />
-Email:wchaowu@gmail.com <br />
+有什么疑问和建议请发邮箱至Email:wchaowu@gmail.com <br />
 github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://github.com/wchaowu/</a>
 <br />
 <br />
@@ -46,4 +46,4 @@ github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://
 ------------------------
 参考资料
 
- <a href="http://www.itzhai.com">http://www.itzhai.com</a>
+ <a href="http://www.apress.com/">http://www.apress.com/</a>

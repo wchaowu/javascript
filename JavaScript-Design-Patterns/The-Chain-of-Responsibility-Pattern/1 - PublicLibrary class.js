@@ -2,7 +2,7 @@
 // 首先定义一些接口
 var Publication = new Interface('Publication', ['getIsbn', 'setIsbn', 'getTitle',
     'setTitle', 'getAuthor', 'setAuthor', 'getGenres', 'setGenres', 'display']);
-var Library = new Interface('Library', [‘addBook’, 'findBooks', 'checkoutBook',
+var Library = new Interface('Library', ['addBook', 'findBooks', 'checkoutBook',
     'returnBook']);
 var Catalog = new Interface('Catalog', ['handleFilingRequest', 'findBooks',
     'setSuccessor']);
