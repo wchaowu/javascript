@@ -112,10 +112,10 @@ var TooltipManager = (function() {
   /* Tooltip class, as a flyweight. */
   // 把ToolTip放到单例中，就不能在别的地方被实例化。
   var Tooltip = function() {
-    ...
+    //todo
   };
  Tooltip.prototype = {
-   ...
+   //todo
   };
 
   return {

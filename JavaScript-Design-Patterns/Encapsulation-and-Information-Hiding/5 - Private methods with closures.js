@@ -5,7 +5,7 @@ var Book = function(newIsbn, newTitle, newAuthor) { // implements Publication
 
   // Private method.
   function checkIsbn(isbn) {
-    ... 
+    //todo
   }  
 
   // Privileged methods.
@@ -40,6 +40,6 @@ var Book = function(newIsbn, newTitle, newAuthor) { // implements Publication
 // Public, non-privileged methods.
 Book.prototype = {
   display: function() {
-    ...
+    //todo
   }
 };

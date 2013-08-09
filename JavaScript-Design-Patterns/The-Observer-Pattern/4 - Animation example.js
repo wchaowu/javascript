@@ -9,7 +9,7 @@ Animation.
   method('fly', function() {
     // begin animation
     this.onStart.deliver();
-    for ( ... ) { // loop through frames
+    for (var i=0;i<this.length;i++) { // loop through frames
       // deliver frame number
       this.onTween.deliver(i); 
     }
@@ -18,10 +18,10 @@ Animation.
   });
 
 // setup an account with the animation manager
-var Superman = new Animation({...config properties...});
+var Superman = new Animation({//todoconfig properties...});
 
 // Begin implementing subscribers
-var putOnCape = function(i) { };
+var putOnCape = function(i) {};
 var takeOffCape = function(i) { };
 
 putOnCape.subscribe(Superman.onStart);

@@ -4,15 +4,15 @@ var Class = (function() {
   var UPPER_BOUND = 100;
   
   // Privileged static method.
-  this.getUPPER_BOUND() {
+  this.getUPPER_BOUND = function(){
     return UPPER_BOUND;
   }
 
-  ...
+  //todo
 
   // Return the constructor.
   return function(constructorArgument) {
-    ...
+    //todo
   }
 })();
 
@@ -28,15 +28,15 @@ var Class = (function() {
   }
   
   // Privileged static method.
-  this.getConstant(name) {
+  this.getConstant=function(name) {
     return constants[name];
   }
 
-  ...
+  //todo
 
   // Return the constructor.
   return function(constructorArgument) {
-    ...
+    //todo
   }
 })();
 

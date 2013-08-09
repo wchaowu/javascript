@@ -2,11 +2,11 @@
 /* a. Start and stop animations using functions. */
 
 function startAnimation() {
-  ...
+  //todo
 }
 
 function stopAnimation() {
-  ...
+  //todo
 }
 
 
@@ -14,20 +14,20 @@ function stopAnimation() {
 /* b. Anim class. */
 
 var Anim = function() {
-  ...
+  //todo
 };
 Anim.prototype.start = function() {
-  ...
+  //todo
 };
 Anim.prototype.stop = function() {
-  ...
+  //todo
 };
 
 /* Usage. */
 
 var myAnim = new Anim();
 myAnim.start();
-...
+//todo
 myAnim.stop();
 
 
@@ -35,14 +35,14 @@ myAnim.stop();
 /* c. Anim class, with a slightly different syntax for declaring methods. */
 
 var Anim = function() { 
-  ...
+  //todo
 };
 Anim.prototype = {
   start: function() {
-    ...
+    //todo
   },
   stop: function() {
-    ...
+    //todo
   }
 };
 
@@ -57,13 +57,13 @@ Function.prototype.method = function(name, fn) {
 /* Anim class, with methods created using a convenience method. */
 
 var Anim = function() { 
-  ...
+  //todo
 };
 Anim.method('start', function() {
-  ...
+  //todo
 });
 Anim.method('stop', function() {
-  ...
+  //todo
 });
 
 
@@ -78,12 +78,12 @@ Function.prototype.method = function(name, fn) {
 /* Anim class, with methods created using a convenience method and chaining. */
 
 var Anim = function() { 
-  ...
+  //todo
 };
 Anim.
   method('start', function() {
-    ...
+    //todo
   }).
   method('stop', function() {
-    ...
+    //todo
   });

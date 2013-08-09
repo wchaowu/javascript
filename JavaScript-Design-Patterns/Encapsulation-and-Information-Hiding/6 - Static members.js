@@ -5,7 +5,7 @@ var Book = (function() {
 
   // Private static method.
   function checkIsbn(isbn) {
-    ... 
+    //todo
   }    
 
   // Return the constructor.
@@ -51,12 +51,12 @@ var Book = (function() {
 
 // Public static method.
 Book.convertToTitleCase = function(inputString) {
-  ...
+  //todo
 };
 
 // Public, non-privileged methods.
 Book.prototype = {
   display: function() {
-    ...
+    //todo
   }
 };

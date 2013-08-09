@@ -1,7 +1,7 @@
 /* PublicLibrary class. */
 
 var PublicLibrary = function(books) { // implements Library
-  ...
+  //todo
 };
 PublicLibrary.prototype = {
   // 修改findBooks方法，以便可以根据类别来缩小搜索范文。
@@ -32,9 +32,16 @@ PublicLibrary.prototype = {
       return results;
     }
   },
-  checkoutBook: function(book) { ... },
-  returnBook: function(book) { ... },
-  addBook: function(newBook) { ... }
+  checkoutBook: function(book) {
+        //todo
+   },
+  returnBook:function(book) {
+  //todo
+  },
+  addBook: function(newBook) {
+        //todo
+
+  }
 };
 
 /* GenreCatalog class, used as a superclass for specific catalog classes. */
@@ -45,8 +52,10 @@ var GenreCatalog = function() { // implements Catalog
   this.genreNames = [];
 };
 GenreCatalog.prototype = {
-  _bookMatchesCriteria: function(book) { ... }
-  handleFilingRequest: function(book) { ... },
+  _bookMatchesCriteria: function(book) { //todo
+   },
+  handleFilingRequest: function(book) { //todo
+   },
   // 实现GenreCatalog这个超类中的findBooks方法，这个方法将被用在所有子类中，不需要被重写。
   findBooks: function(request) {
     var found = false;
@@ -89,8 +98,11 @@ GenreCatalog.prototype = {
       return request;
     }
   },
-  setSuccessor: function(successor) { ... }
-};
+  setSuccessor: function(successor) { //todo
+
+}
+}
+
 
 
 /* SciFiCatalog class. */
@@ -100,4 +112,6 @@ var SciFiCatalog = function() { // implements Catalog
   this.genreNames = ['sci-fi', 'scifi', 'science fiction'];
 };
 extend(SciFiCatalog, GenreCatalog);
-SciFiCatalog.prototype._bookMatchesCriteria = function(book) { ... };
+SciFiCatalog.prototype._bookMatchesCriteria = function(book) {
+//todo
+ };

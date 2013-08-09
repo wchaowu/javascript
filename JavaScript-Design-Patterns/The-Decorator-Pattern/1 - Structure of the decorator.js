@@ -6,20 +6,20 @@ var Bicycle = new Interface('Bicycle', ['assemble', 'wash', 'ride', 'repair',
 /* The AcmeComfortCruiser class. */
 // 创建一辆自行车
 var AcmeComfortCruiser = function() { // implements Bicycle
-  ...
+  //todo
 };
 AcmeComfortCruiser.prototype = {
   assemble: function() {
-    ...
+    //todo
   },
   wash: function() {
-    ...
+    //todo
   },
   ride: function() {
-    ...
+    //todo
   },
   repair: function() {
-    ...
+    //todo
   },
   getPrice: function() {
     return 399.00;

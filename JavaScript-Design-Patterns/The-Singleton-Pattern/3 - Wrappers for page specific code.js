@@ -52,7 +52,7 @@ GiantCorp.RegPage = {
   sendRegistration: function(data) {
     // Make an XHR request and call displayResult() when the response is
     // received.
-    ...
+    //todo ...
   },
   displayResult: function(response) {
     // Output the response directly into the output element. We are

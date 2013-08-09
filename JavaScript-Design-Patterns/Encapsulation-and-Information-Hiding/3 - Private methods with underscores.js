@@ -6,7 +6,7 @@ var Book = function(isbn, title, author) { // implements Publication
 
 Book.prototype = {
   _checkIsbn: function(isbn) {
-    ...
+    //todo
   },
   getIsbn: function() {
     return this._isbn;
@@ -31,6 +31,6 @@ Book.prototype = {
   },
   
   display: function() {
-    ...
+    //todo
   }
 };

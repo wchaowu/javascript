@@ -17,7 +17,7 @@ var DynamicGallery = function(id) { // implements Composite, GalleryItem
   this.element.className = 'dynamic-gallery';
 }
 DynamicGallery.prototype = {
-  ...
+  //todo
   addTag: function(tag) {
     this.tags.push(tag);
     for(var node, i = 0; node = this.getChild(i); i++) {
@@ -48,7 +48,7 @@ DynamicGallery.prototype = {
     }
     return results;
   },
-  ...
+  //todo
 };
 
 /* GalleryImage class. */
@@ -60,7 +60,7 @@ var GalleryImage = function(src) { // implements Composite, GalleryItem
   this.tags = [];
 }
 GalleryImage.prototype = {
-  ...
+  //todo
   addTag: function(tag) {
     this.tags.push(tag);
   },
@@ -75,5 +75,5 @@ GalleryImage.prototype = {
     }
     return []; // Return an empty array if no matches were found.
   },
-  ...
+  //todo
 };

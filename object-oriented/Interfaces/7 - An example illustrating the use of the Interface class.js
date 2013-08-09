@@ -43,5 +43,5 @@ var ResultFormatter = function(resultsObject) {
 };
 
 ResultFormatter.prototype.renderResults = function() {
-  ...
+  //todo
 };

@@ -97,5 +97,5 @@ var TestProxy = function() {
 extend(TestProxy, DynamicProxy);
 // 实现_isInitialized方法
 TestProxy.prototype._isInitialized = function() {
-  ... // Initialization condition goes here.
+  //todo // Initialization condition goes here.
 };

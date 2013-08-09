@@ -8,7 +8,6 @@ GiantCorp.DataParser = {
   _stringSplit: function(str, delimiter) {
     return str.split(delimiter);
   },
-  
   // Public method.
   stringToArray: function(str, delimiter, stripWS) {
     if(stripWS) {

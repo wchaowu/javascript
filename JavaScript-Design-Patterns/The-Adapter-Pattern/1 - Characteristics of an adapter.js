@@ -4,7 +4,7 @@ var clientObject = {
   string3: 'baz'
 };
 function interfaceMethod(str1, str2, str3) {
-  ...
+  //todo
 }
 
 function clientToInterfaceAdapter(o) {

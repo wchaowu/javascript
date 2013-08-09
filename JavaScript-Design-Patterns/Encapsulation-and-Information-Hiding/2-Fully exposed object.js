@@ -6,7 +6,7 @@ var Book = function(isbn, title, author) {
 }
 
 Book.prototype.display = function() {
-        ...
+        //todo...
 };
 
 
@@ -25,14 +25,15 @@ Book.prototype = {
       return false;
     }
 
-    isbn = isbn.replace(/-/. ''); // Remove dashes.
+    isbn = isbn.replace(/-/, ''); // Remove dashes.
     if(isbn.length != 10 && isbn.length != 13) {
       return false;
     }
 
     var sum = 0;
     if(isbn.length === 10) { // 10 digit ISBN.
-      If(!isbn.match(\^\d{9}\)) { // Ensure characters 1 through 9 are digits.
+        var re=/^\d{9}/
+      if(!isbn.match(re)) { // Ensure characters 1 through 9 are digits.
         return false;
       }
 
@@ -46,7 +47,8 @@ Book.prototype = {
       }
     }
     else { // 13 digit ISBN.
-      if(!isbn.match(\^\d{12}\)) { // Ensure characters 1 through 12 are digits.
+        var re =/^\d{12}\)/;
+      if(!isbn.match(re)) { // Ensure characters 1 through 12 are digits.
         return false;
       }
 
@@ -63,7 +65,7 @@ Book.prototype = {
   },
 
   display: function() {
-    ...
+    //todo
   }
 };
 
@@ -84,7 +86,7 @@ var Book = function(isbn, title, author) { // implements Publication
 
 Book.prototype = {
   checkIsbn: function(isbn) {
-    ...
+    //todo
   },
   getIsbn: function() {
     return this.isbn;
@@ -109,6 +111,6 @@ Book.prototype = {
   },
 
   display: function() {
-    ...
+    //todo
   }
 };

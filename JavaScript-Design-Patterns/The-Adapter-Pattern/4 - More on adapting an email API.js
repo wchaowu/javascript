@@ -26,7 +26,7 @@ dedMailtoFooMailAdapter.getMail = function(id, callback) {
   });
 };
 // Other methods needed to adapt dedMail to the fooMail interface.
-...
+//todo
 
 // Assign the adapter to the fooMail variable.
 // 把适配器赋给fooMail变量，这样就不用修改客户端的其他代码了

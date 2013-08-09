@@ -5,7 +5,7 @@ Function.prototype.method = function(name, fn) {
 };
 (function() {
   function _$(els) {
-    // ...
+    // //todo
   }
   /*
     Events
@@ -13,9 +13,9 @@ Function.prototype.method = function(name, fn) {
       * getEvent
   */
   _$.method('addEvent', function(type, fn) {
-    // ...
+    // //todo
   }).method('getEvent', function(e) {
-    // ...
+    // //todo
   }).
   /*
     DOM
@@ -27,7 +27,7 @@ Function.prototype.method = function(name, fn) {
       * setStyle
   */
   method('addClass', function(className) {
-    // ...
+    // //todo
   }).method('removeClass', function(className) {
     // ...
   }).method('replaceClass', function(oldClass, newClass) {

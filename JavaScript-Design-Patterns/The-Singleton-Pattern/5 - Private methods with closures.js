@@ -16,10 +16,10 @@ MyNamespace.Singleton = (function() {
     publicAttribute2: 10,
     
     publicMethod1: function() {
-      ...
+      //todo
     },
     publicMethod2: function(args) {
-      ...
+      //todo
     }
   };
 })();
@@ -32,10 +32,10 @@ MyNamespace.Singleton = (function() {
   var privateAttribute2 = [1, 2, 3];
   
   function privateMethod1() {
-    ...
+    //todo
   }
   function privateMethod2(args) {
-    ...
+    //todo
   }
 
   return { // Public members.
@@ -43,10 +43,10 @@ MyNamespace.Singleton = (function() {
     publicAttribute2: 10,
     
     publicMethod1: function() {
-      ...
+      //todo
     },
     publicMethod2: function(args) {
-      ...
+      //todo
     }
   };
 })();

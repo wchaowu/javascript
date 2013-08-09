@@ -24,7 +24,7 @@ PersonnelDirectory.prototype = {
   // 生成HTML元素并向其中填入数据
   _configure: function(responseText) {
     this.data = eval('(' + reponseText + ')');
-    ...
+    //todo
     this.currentPage = 'a';
   },
   showPage: function(page) {

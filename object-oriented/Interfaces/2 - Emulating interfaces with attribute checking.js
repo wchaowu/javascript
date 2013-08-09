@@ -14,16 +14,15 @@ interface FormItem {
 
 var CompositeForm = function(id, method, action) {
     this.implementsInterfaces = ['Composite', 'FormItem'];
-   ...
+   //todo
 };
 
-...
 
 function addForm(formInstance) {
     if(!implements(formInstance, 'Composite', 'FormItem')) {
         throw new Error("Object does not implement a required interface.");
     }
-    ...
+    //todo
 }
 
 // The implements function, which checks to see if an object declares that it 

@@ -10,7 +10,7 @@ var Catalog = new Interface('Catalog', ['handleFilingRequest', 'findBooks',
 /* Book class. */
 
 var Book = function(isbn, title, author, genres) { // implements Publication
-  ...
+  //todo
 }
 
 

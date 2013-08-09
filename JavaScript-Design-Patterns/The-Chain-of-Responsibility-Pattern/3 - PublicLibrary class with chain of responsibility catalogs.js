@@ -9,9 +9,9 @@ var PublicLibrary = function(books, firstGenreCatalog) { // implements Library
   }
 };
 PublicLibrary.prototype = {
-  findBooks: function(searchString) { ... },
-  checkoutBook: function(book) { ... },
-  returnBook: function(book) { ... },
+  findBooks: function(searchString) { //todo },
+  checkoutBook: function(book) { //todo },
+  returnBook: function(book) { //todo },
   addBook: function(newBook) {
     // Always add the book to the main catalog.
     this.catalog[newBook.getIsbn()] = { book: newBook, available: true };

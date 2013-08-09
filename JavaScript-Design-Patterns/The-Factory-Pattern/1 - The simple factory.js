@@ -33,20 +33,20 @@ var Bicycle = new Interface('Bicycle', ['assemble', 'wash', 'ride', 'repair']);
 /* Speedster class. */
 
 var Speedster = function() { // implements Bicycle
-  ...
+  //todo
 };
 Speedster.prototype = {
   assemble: function() {
-    ...
+    //todo
   },
   wash: function() {
-    ...
+    //todo
   },
   ride: function() {
-    ...
+    //todo
   },
   repair: function() {
-    ...
+    //todo
   }
 };
 

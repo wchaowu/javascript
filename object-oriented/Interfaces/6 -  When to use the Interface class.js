@@ -5,5 +5,5 @@ function displayRoute(mapInstance) {
     mapInstance.centerOnPoint(12, 34);
     mapInstance.zoom(5);
     mapInstance.draw();
-    ...
+    //todo
 }

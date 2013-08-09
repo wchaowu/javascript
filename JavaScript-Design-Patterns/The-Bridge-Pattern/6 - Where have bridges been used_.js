@@ -14,5 +14,5 @@ var addRequest = function(data) {
 // Bridge
 
 var addRequestFromClick = function(request) {
-  addRequest(request.split(‘-‘)[0]);
+  addRequest(request.split('-')[0]);
 };

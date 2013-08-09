@@ -6,13 +6,13 @@ var FormItem = new Interface('FormItem', ['save']);
 // CompositeForm class
 
 var CompositeForm = function(id, method, action) {
-   ...
+   //todo
 };
 
-...
+//todo
 
 function addForm(formInstance) {
     ensureImplements(formInstance, Composite, FormItem);
     // This function will throw an error if a required method is not implemented.
-    ...
+    //todo
 }

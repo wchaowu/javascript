@@ -1,10 +1,12 @@
-/* Declared globally. */	
+/* Declared globally.
+ * 用作命名空间：将自己的所有代码组织在一个全局变量名下，方便日后维护，示例程序
+  * */
 
 function findProduct(id) {
-  ...
+  //todo
 }
 
-...
+
 
 // Later in your page, another programmer adds...
 var resetProduct = $('reset-product-button');
@@ -16,11 +18,10 @@ var findProduct = $('find-product-button'); // The findProduct function just got
 
 var MyNamespace = {
   findProduct: function(id) {
-	  ...
-  },
+	 //todo ...
+  }
   // Other methods can go here as well.
-}
-...
+};
 
 // Later in your page, another programmer adds...
 var resetProduct = $('reset-product-button');

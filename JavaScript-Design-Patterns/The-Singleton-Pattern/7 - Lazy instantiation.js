@@ -1,4 +1,7 @@
 /* Singleton with Private Members, step 3. */
+/**
+ * 惰性加载：在大型或复杂的项目中，起到了优化的作用：那些开销较大却很少用到的组件可以被包装到惰性加载单例中，示例程序：
+ */
 
 MyNamespace.Singleton = (function() {
   // Private members.
@@ -6,10 +9,10 @@ MyNamespace.Singleton = (function() {
   var privateAttribute2 = [1, 2, 3];
   
   function privateMethod1() {
-    ...
+    //todo 
   }
   function privateMethod2(args) {
-    ...
+   //todo
   }
 
   return { // Public members.
@@ -17,10 +20,10 @@ MyNamespace.Singleton = (function() {
     publicAttribute2: 10,
     
     publicMethod1: function() {
-      ...
+     //todo
     },
     publicMethod2: function(args) {
-      ...
+     //todo.
     }
   };
 })();
@@ -35,10 +38,10 @@ MyNamespace.Singleton = (function() {
     var privateAttribute2 = [1, 2, 3];
   
     function privateMethod1() {
-      ...
+     //todo
     }
     function privateMethod2(args) {
-      ...
+      //todo
     }
 
     return { // Public members.
@@ -46,10 +49,10 @@ MyNamespace.Singleton = (function() {
       publicAttribute2: 10,
     
       publicMethod1: function() {
-        ...
+        //todo
       },
       publicMethod2: function(args) {
-        ...
+        //todo
       }
     }
   }
@@ -61,7 +64,7 @@ MyNamespace.Singleton = (function() {
 MyNamespace.Singleton = (function() {
   
   function constructor() { // All of the normal singleton code goes here.
-    ...
+    //todo
   }
   
   return {
@@ -78,7 +81,7 @@ MyNamespace.Singleton = (function() {
   var uniqueInstance; // Private attribute that holds the single instance.
   
   function constructor() { // All of the normal singleton code goes here.
-    ...
+    //todo
   }
   
   return {

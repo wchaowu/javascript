@@ -11,7 +11,7 @@ github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://
 包含javascript的基础语法，面向对象的实现和设计模式实现
 
 目录的Demo 建议大家按照顺序看
-<h3>object-oriented</h3>
+<h3>Oject-Oriented</h3>
 1.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Expressive-JavaScript">JavaScript Expressive </a> <br />
 2.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Interfaces"> Interfaces </a> <br />
 3.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Introduction">Introduction</a> <br />
@@ -21,7 +21,8 @@ github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://
 1.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/this">JavaScript this </a> <br />
 2.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/this">JavaScript 闭包</a> <br />
 3.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/event">JavaScript 事件</a> <br />
-
+<h3>Jquery</h3>
+1 . jQuery中 closure
 <h3>Javascript-Design-Pattern</h3>
 1 Singleton-Pattern <br />
 2 Chaining <br />
