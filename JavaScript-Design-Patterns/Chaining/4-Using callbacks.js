@@ -1,14 +1,14 @@
 // Accessor without function callbacks: returning requested data in accessors.
 window.API = window.API || {};
 API.prototype = function() {
-  var name = 'Hello world';
+  var name ='Hello world';
   // Privileged mutator method.
-  setName: function(newName) {
+  this.setName= function (newName) {
     name = newName;
     return this;
-  },
+  };
   // Privileged accessor method.
-  getName: function() {
+  this.getName = function() {
     return name;
   }
 }();
@@ -23,12 +23,12 @@ window.API2 = window.API2 || {};
 API2.prototype = function() {
   var name = 'Hello world';
   // Privileged mutator method.
-  setName: function(newName) {
+  this.setName= function(newName) {
     name = newName;
     return this;
   },
   // Privileged accessor method.
-  getName: function(callback) {
+  this.getName=function(callback) {
     callback.call(this, name);
     return this;
   }

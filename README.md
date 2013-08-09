@@ -47,3 +47,6 @@ github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://
 参考资料
 
  <a href="http://www.apress.com/">http://www.apress.com/</a>
+
+ 学习资料
+ <a href="http://www.alloyteam.com/2012/10/common-javascript-design-patterns/">alloyteam</a>
