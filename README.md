@@ -3,9 +3,7 @@
   Version 1.0.0 <br/>
   Author:scott (吴超武) <br />
   有什么疑问和建议请发邮箱至Email:wchaowu@gmail.com <br />
---------------------------------------------------------------------------------
-github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://github.com/wchaowu/</a>
-<br />
+  github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://github.com/wchaowu/</a><br />
 本人积累的一些javascript的写法，参考了dhtmlx，javascript设计模式书籍、Jquery源代码，QQ空间、webQQ和新浪微博。下面有参考资料的链接
 其中很多都是伪代码的写法，便有回顾和总结。
 包含javascript的基础语法，面向对象的实现和设计模式实现,模块化开发 CommonJS AMD javascript常见的疑问,Jquery,Node.js html5
