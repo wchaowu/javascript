@@ -1,5 +1,6 @@
 --------------------------------------------------------------------------------
-  Javascript代码 <br/>
+  <h3>Javascript代码</h3>
+   <br/>
   Version 1.0.0 <br/>
   Author:scott (吴超武) <br />
   有什么疑问和建议请发邮箱至Email:wchaowu@gmail.com <br />
@@ -17,7 +18,9 @@
 2.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/this">JavaScript 闭包</a> <br />
 3.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/event">JavaScript 事件</a> <br />
 <h3>Jquery</h3>
-为了更加了解Jquery可以先了解 <a href="https://github.com/madrobby/zepto#readme">zepto</a>
+为了更加了解Jquery实现机制可以先了解
+ <a href="https://github.com/madrobby/zepto#readme">zepto</a>
+<br />
 1 .<a href="https://github.com/wchaowu/javascript-code/blob/master/jquery/1_closure.js">
  jQuery中 closure
  </a>
