@@ -3,6 +3,7 @@
 
 function startAnimation() {
   //todo
+  alert("test");
 }
 
 function stopAnimation() {
