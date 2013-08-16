@@ -1,62 +1,33 @@
-<html>
-<head>
-	
-</head>
-<body>
-<script>
-/* AjaxHandler interface. */
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style type="text/css">
+			body { background-color: #000; font-family: "Courier New", "Courier"; font-size: 12px; color: #999999;}
+			div {font-family: "Courier New", "Courier"; font-size: 24px; color: #FFF; text-decoration:none}
+			div.main {margin-top:120px; text-align: center;}
+			.showCodes {
+				font-size:25px;
+				width:640px;
+				margin:0px auto;
+				color:#00FF00;
+			}
+		</style>
+	</head>
+	<body style="visibility:visible;">
+		<div class="main">
+			<a style="border:solid 0px #FFF" title="点击进入技术分享页" href="http://hahaya.github.com/blog"><img style="border:none;" src="images/unix.jpg"></a>
+			<br>
+			<br>
+		</div>
+		<div id="codes_1" class="showCodes" >>> </div>
+		<div id="codes_2" class="showCodes" style="display: none;">>> </div>
+		<div id="codes_3" class="showCodes" style="display: none;">>> </div>
+		<div id="codes_4" class="showCodes" style="display: none;">>> </div>
 
-// var AjaxHandler = new Interface('AjaxHandler', ['request', 'createXhrObject']);
 
-/* SimpleHandler class. */
+<script language="javascript">
+window.a=function(){document.body.style.visibility="visible"};function b(i){return window.document.getElementById(i)};var c="cd hahaya.github.com";var d=c.length;var e=0;var f=0;var g;function h(){if(e==d){if(0==f){b("codes_2").style.display="block";c="Login:hahaya";e=0;f=1;d=c.length}else if(1==f){b("codes_3").style.display="block";c="Password:********";e=0;f=2;d=c.length}else if(2==f){b("codes_4").style.display="block";c="Success,Welcome!";e=0;f=3;d=c.length}else{clearInterval(g);document.location="http://hahaya.github.com/blog"}}else{if(0==f){b("codes_1").innerHTML+=c.charAt(e)}else if(1==f){b("codes_2").innerHTML+=c.charAt(e)}else if(2==f){b("codes_3").innerHTML+=c.charAt(e)}else if(3==f){b("codes_4").innerHTML+=c.charAt(e)};e++}};g=setInterval(function(){h()},45);
+</script>
 
-var SimpleHandler = function() {}; // implements AjaxHandler
-SimpleHandler.prototype = {
-  request: function(method, url, callback, postVars) {
-    var xhr = this.createXhrObject();
-    xhr.onreadystatechange = function() {
-      if(xhr.readyState !== 4) return;
-      (xhr.status === 200) ? 
-        callback.success(xhr.responseText, xhr.responseXML) : 
-        callback.failure(xhr.status);
-    };
-    xhr.open(method, url, true);
-    if(method !== 'POST') postVars = null;
-    xhr.send(postVars);
-  },
-  createXhrObject: function() { // Factory method.
-    var methods = [
-      function() { return new XMLHttpRequest(); },
-      function() { return new ActiveXObject('Msxml2.XMLHTTP'); },
-      function() { return new ActiveXObject('Microsoft.XMLHTTP'); }
-    ];
-    
-    for(var i = 0, len = methods.length; i < len; i++) {
-      try {
-        methods[i]();
-      }
-      catch(e) {
-        continue;
-      }
-      // If we reach this point, method[i] worked.
-      this.createXhrObject = methods[i]; // Memoize the method.  记住该方法
-      return methods[i]();
-    }
-    
-    // If we reach this point, none of the methods worked.
-    throw new Error('SimpleHandler: Could not create an XHR object.');
-  } 
-};
 
-/* Usage. */
-
-var myHandler = new SimpleHandler();
-var callback = { 
-  success: function(responseText) { alert('Success: ' + responseText); }, 
-  failure: function(statusCode) { alert('Failure: ' + statusCode); } 
-};
-myHandler.request('GET', 'script.php', callback);
-
-</script>​
-</body>
+	</body>
 </html>
