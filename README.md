@@ -8,8 +8,8 @@
 本人积累的一些javascript的写法，参考了dhtmlx套件框架，javascript设计模式书籍、Jquery源代码，QQ空间、webQQ和新浪微博。
 <a href="#referenceData">参考资料</a> 其中很多都是伪代码的写法，便有回顾和总结。
 包含 <br />
-<a href="#javascriptBase" >javascript的基础语法</a> &nbsp;&nbsp;
-<a href="#OjectOriented">面向对象的实现</a>&nbsp;&nbsp;
+<a href="#javascript-based" >javascript的基础语法</a> &nbsp;&nbsp;
+<a href="#oject-oriented">面向对象的实现</a>&nbsp;&nbsp;
 <a href="#javascript-design-pattern">设计模式实现</a>&nbsp;&nbsp;
 <a href="#-javascript-%E6%A8%A1%E5%9D%97%E5%8C%96%E8%A7%84%E8%8C%83">模块化开发</a>&nbsp;&nbsp;
  <a href="#Question">javascript常见的疑问</a>&nbsp;&nbsp;
