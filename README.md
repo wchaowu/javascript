@@ -106,8 +106,10 @@ Observer-Pattern
 <h3 name="html5">HTML5<h5>
 <h3 name="NodeJs">Node.js</h3>
 ------------------------
-
+工具
+<a href="http://mahua.jser.me/">jser</a>
 参考资料
- <a href="http://www.apress.com/" name="referenceData">http://www.apress.com/</a>
+ <a href="http://www.apress.com/" name="referenceData">http://www.apress.com/</a> <br />
+ <a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a> <br />
  <a href="http://www.alloyteam.com">alloyteam</a>
 
