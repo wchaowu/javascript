@@ -10,12 +10,12 @@
 包含 <br />
 <a href="#javascriptBase" >javascript的基础语法</a> &nbsp;&nbsp;
 <a href="#OjectOriented">面向对象的实现</a>&nbsp;&nbsp;
-<a href="#JavascriptDesign">设计模式实现</a>&nbsp;&nbsp;
-<a href="#Module">模块化开发</a>&nbsp;&nbsp;
+<a href="#javascript-design-pattern">设计模式实现</a>&nbsp;&nbsp;
+<a href="#-javascript-%E6%A8%A1%E5%9D%97%E5%8C%96%E8%A7%84%E8%8C%83">模块化开发</a>&nbsp;&nbsp;
  <a href="#Question">javascript常见的疑问</a>&nbsp;&nbsp;
 <a href="#Jquery">Jquery</a>&nbsp;&nbsp;
  <a href="#NodeJs">Node.js</a>&nbsp;&nbsp;
- <a href="#html5"> html5</a>&nbsp;&nbsp;
+ <a href="#html5nodejs"> html5</a>&nbsp;&nbsp;
  <br/>
 <h3 name="OjectOriented">Oject-Oriented</h3>
 1.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Expressive-JavaScript">JavaScript Expressive </a> <br />
@@ -66,10 +66,9 @@ Composite-Pattern
  <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Adapter-Pattern">
 Adapter-Pattern
  </a>
-
 <br />
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Decorator-Pattern">
-8. Decorator-Pattern
+8.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Decorator-Pattern">
+ Decorator-Pattern
 </a>
 <br />
 9.
@@ -106,7 +105,6 @@ Observer-Pattern
  <h4>1. AMD</h4>
  <h4>2. CommonJS</h4>
 <h3 name="html5">HTML5<h5>
-<br />
 <h3 name="NodeJs">Node.js</h3>
 ------------------------
 
