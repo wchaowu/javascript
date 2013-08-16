@@ -1,6 +1,5 @@
 --------------------------------------------------------------------------------
   <h3>Javascript代码</h3>
-   <br/>
   Version 1.0.0 <br/>
   Author:scott (吴超武) <br />
   有什么疑问和建议请发邮箱至Email:wchaowu@gmail.com <br />
@@ -24,7 +23,7 @@
 4.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Inheritance"> Inheritance </a> <br />
 <h3 name="javascriptBase">Javascript based</h3>
 1.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/this">JavaScript this </a> <br />
-2.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/this">JavaScript 闭包</a> <br />
+2.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/closure">JavaScript 闭包</a> <br />
 3.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/event">JavaScript 事件</a> <br />
 <h3>Jquery</h3>
 为了更加了解Jquery实现机制可以先了解

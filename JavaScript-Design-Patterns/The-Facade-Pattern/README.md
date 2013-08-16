@@ -1,3 +1,4 @@
+###外观模式
 外观模式并不是适配器模式，适配器模式是一种包装器，用来对接口进行适配以便在不兼容系统中使用它。而创建外观元素则是图个方便。它并不用于达到需要特定接口的客户系统打交道这个目的，而是用于提供一个简化的接口。<br />
 <br />
 <a href="https://github.com/wchaowu/javascript-code/blob/master/JavaScript-Design-Patterns/The-Facade-Pattern/2%20-%20Facades%20as%20convenience%20methods.js">
