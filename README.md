@@ -21,7 +21,7 @@
 2.JavaScript this <br />
 3.JavaScript 闭包<br />
 4.JavaScript 事件</a> <br />
-5.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/crossDomain.js">javascript 跨域</a> <br /> 
+5.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/crossDomain.html">javascript 跨域</a> <br /> 
 
 
 <h3 name="OjectOriented">Oject-Oriented</h3>
