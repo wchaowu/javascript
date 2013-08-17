@@ -16,15 +16,20 @@
  <a href="#NodeJs">Node.js</a>&nbsp;&nbsp;
  <a href="#html5nodejs"> html5</a>&nbsp;&nbsp;
  <br/>
+ <h3 name="javascriptBase">Javascript based</h3>
+1.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/reference">对象JavaScript 引用</a> <br />
+2.JavaScript this <br />
+3.JavaScript 闭包<br />
+4.JavaScript 事件</a> <br />
+5.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/crossDomain.js">javascript 跨域</a> <br /> 
+
+
 <h3 name="OjectOriented">Oject-Oriented</h3>
 1.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Expressive-JavaScript">JavaScript Expressive </a> <br />
 2.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Interfaces"> Interfaces </a> <br />
 3.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Introduction">Introduction</a> <br />
 4.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Inheritance"> Inheritance </a> <br />
-<h3 name="javascriptBase">Javascript based</h3>
-1.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/this">JavaScript this </a> <br />
-2.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/closure">JavaScript 闭包</a> <br />
-3.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/event">JavaScript 事件</a> <br />
+
 <h3>Jquery</h3>
 为了更加了解Jquery实现机制可以先了解
  <a href="https://github.com/madrobby/zepto#readme">zepto</a>
