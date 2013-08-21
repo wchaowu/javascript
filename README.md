@@ -31,6 +31,7 @@ JavaScript 事件</a> <br />
 2.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Interfaces"> Interfaces </a> <br />
 3.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Introduction">Introduction</a> <br />
 4.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Inheritance"> Inheritance </a> <br />
+5.AOP
 
 <h3>Jquery</h3>
 为了更加了解Jquery实现机制可以先了解
