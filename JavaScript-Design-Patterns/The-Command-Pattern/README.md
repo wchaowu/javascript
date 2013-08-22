@@ -1,12 +1,13 @@
 <h3>命令模式</h3>
-命令模式是一种用来封装单个操作（discrete action）的结构型模式。其封装的操作可能是单个方法调用这么简单，也可能是整个子程序那么复杂。经封装的操作可以作为一等的对象进行传送。命令对象主要用于消除调用者与接受者之间的耦合，这有助于创建高度模块化的调用者，它们对所调用的操作不需要任何了解。<br />
-<h3>1、命令的结构</h3<br />
+在软件系统中，**“行为请求者”**与**“行为实现者”**通常呈现一种**“紧耦合”**。但在某些场合，比如要对行为进行“记录、撤销/重做、事务”等处理，这种无法抵御变化的紧耦合是不合适的。在这种情况下，如何将“**行为请求者**”与**“行为实现者**”解耦？将**一组行为抽象为对象，实现二者之间的松耦合**。这就是命令模式（Command Pattern）<br />
+>[计算器Demo](https://github.com/wchaowu/javascript-code/blob/master/JavaScript-Design-Patterns/The-Command-Pattern/Calculator.js"计算器Demo")
+>
+###1、命令的结构###
 下面展示一个典型的命令类StartAd和StopAd，它们的构造函数由另一个对象adObject作为参数，而它们实现的execute()方法则要调用该对象的某个方法。现在有了两个可用在用户界面中的类，它们具有相同的接口，你不需要也不关心adObject方法的具体实现，只需要知道它实现了start()和stop()方法就可以了。借助命令模式，可以实现用户界面对象与广告对象的隔离。<br />
 <a href="https://github.com/wchaowu/javascript-code/blob/master/JavaScript-Design-Patterns/The-Command-Pattern/1%20-%20StopAd%20and%20StartAd%20classes.js">
 example
-<a>
-<br />
-<h4>1.1、用闭包创建命令对象</h4><br />
+<a>  
+####1.1、用闭包创建命令对象  
 这种方法不需要创建一个具有execute方法的对象，而是把想要执行的方法包装在闭包中。这样做省却了作用域和this关键字的绑定这方面的烦恼。<br />
 <a href="https://github.com/wchaowu/javascript-code/blob/master/JavaScript-Design-Patterns/The-Command-Pattern/2%20-%20Commands%20using%20closures.js">
 example
