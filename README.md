@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
   <h3>Javascript代码</h3>
   Version 1.0.0 <br/>
-  Author:scott (吴超武) <br />
+  Author:scott  <br />
   有什么疑问和建议请发邮箱至Email:wchaowu@gmail.com <br />
   github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://github.com/wchaowu/</a><br />
 本人积累的一些javascript的写法，参考了dhtmlx套件框架，javascript设计模式书籍、Jquery源代码，QQ空间、webQQ和新浪微博。
