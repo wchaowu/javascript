@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> 自动嵌套命名空间 </title>
+  <meta name="Generator" content="Vbooking System">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ </head>
+ <body>
+ 单一全局变量
+ <script type="text/javascript">
+ var myApplication =  (function () { 
+        function(){
+            //...
+        },
+        return{
+            //...
+        }
+})();
+ </script>
+ 
+ 前缀命名空间
+ <script type="text/javascript">
+	var myApplication_propertyA = {};
+	var myApplication_propertyB = {};
+	function myApplication_myMethod(){ 
+	  //...
+	}
+ </script>
+ 
+ 我们就简单的介绍过IIFE (即时调用的函数表达式) ，它是一个未命名的函数，在它被定义之后就会立即执行。
+ 如果听起来觉得耳熟，是因为你以前遇到过并将它称之为自动生效的（或者自动调用的）匿名函数，然而我个人更认为 Ben Alman的 IIFE 命名更准确。在JavaScript中，因为在一个作用域中显示定义的变量和函数只能在作用域中可见，
+ 函数调用为实现隐私提供了简单的方式。
+ 
+  <script type="text/javascript">
+	  // an (anonymous) immediately-invoked function expression
+	(function () { /*...*/})();
+
+	// a named immediately-invoked function expression
+	(function foobar () { /*..*/}());
+
+	// this is technically a self-executing function which is quite different
+	function foobar () { foobar(); }
+  </script>
+ 嵌套命名空间
+  <script type="text/javascript">
+    var application = {
+      utilities:{
+          drawing:{
+              canvas:{
+                  2d:{
+                          //...
+                  }
+              }
+          }
+    }        
+};
+  </script>  
+ </body>
+</html>

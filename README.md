@@ -25,6 +25,7 @@
 <a href="https://github.com/wchaowu/javascript-code/blob/master/javascript-based/event.html">
 JavaScript 事件</a> <br />
 5.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/crossDomain.html">javascript 跨域</a> <br /> 
+6.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/namespace">javascript 命名空间</a> <br /> 
 
 <h3 name="OjectOriented">Oject-Oriented</h3>
 1.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Expressive-JavaScript">JavaScript Expressive </a> <br />
