@@ -37,8 +37,9 @@ JavaScript 事件</a> <br />
 <h3>Jquery</h3>
 为了更加了解Jquery实现机制可以先了解
  <a href="https://github.com/madrobby/zepto#readme">zepto</a>
-<br />
-1 .<a href="https://github.com/wchaowu/javascript-code/blob/master/jquery/1_closure.js">
+<br /> 
+1. [jQuery 插件推荐](https://github.com/wchaowu/javascript-code/blob/master/jquery/)  
+2.<a href="https://github.com/wchaowu/javascript-code/blob/master/jquery/1_closure.js">
  jQuery中 closure
  </a>
 <h3 name="JavascriptDesign">Javascript-Design-Pattern</h3>
