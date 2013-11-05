@@ -112,9 +112,12 @@ Observer-Pattern
 
 <h3 name="Module"> javascript 模块化规范</h3>
  <h4>1. AMD</h4>
->[https://github.com/wchaowu/javascript-code/tree/](https://github.com/wchaowu/javascript-code/tree/ "https://github.com/wchaowu/javascript-code/tree/")master/AMD
+>[https://github.com/wchaowu/javascript-code/tree/master/AMD](https://github.com/wchaowu/javascript-code/tree/master/AMD "https://github.com/wchaowu/javascript-code/tree/master/AMD")
  <h4>2. CommonJS</h4>
 >[https://github.com/wchaowu/javascript-code/tree/master/CommonJS](https://github.com/wchaowu/javascript-code/tree/master/CommonJS "https://github.com/wchaowu/javascript-code/tree/master/CommonJS")
+>  
+cmd和amd的区别  
+[https://github.com/wchaowu/javascript-code/blob/master/CommonJS/cmd_Amd.md](https://github.com/wchaowu/javascript-code/blob/master/CommonJS/cmd_Amd.md "https://github.com/wchaowu/javascript-code/blob/master/CommonJS/cmd_Amd.md")
 
 <h3 name="html5">HTML5<h5>
   Canvas
@@ -137,7 +140,7 @@ JavaScript frameworks resources and tutorials
 ## 工具   ##
 <a href="http://mahua.jser.me/">jser</a>  
 
-## 参考资料  ## 
+##参考资料 
  <a href="http://www.apress.com/" name="referenceData">http://www.apress.com/</a> <br />
  <a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a> <br />
  <a href="http://www.alloyteam.com">alloyteam</a>
