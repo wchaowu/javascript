@@ -116,9 +116,23 @@ Observer-Pattern
 <h3 name="html5">HTML5<h5>
 <h3 name="NodeJs">Node.js</h3>
 ------------------------
-工具
-<a href="http://mahua.jser.me/">jser</a>
-参考资料
+## 推荐学习资源 ##
+
+javascript风格和规范  
+[https://github.com/airbnb/javascript](https://github.com/airbnb/javascript "https://github.com/airbnb/javascript")  
+最受欢迎的javascript博客  
+[http://stackoverflow.com/questions/409056/top-rated-javascript-blogs](http://stackoverflow.com/questions/409056/top-rated-javascript-blogs "http://stackoverflow.com/questions/409056/top-rated-javascript-blogs")
+
+javascript Weekly  
+[http://javascriptweekly.com/archive/148.html](http://javascriptweekly.com/archive/148.html "http://javascriptweekly.com/archive/148.html")
+
+JavaScript frameworks resources and tutorials
+[http://resrc.io/list/18/javascript-frameworks/](http://resrc.io/list/18/javascript-frameworks/ "http://resrc.io/list/18/javascript-frameworks/")  
+
+## 工具   ##
+<a href="http://mahua.jser.me/">jser</a>  
+
+## 参考资料  ## 
  <a href="http://www.apress.com/" name="referenceData">http://www.apress.com/</a> <br />
  <a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a> <br />
  <a href="http://www.alloyteam.com">alloyteam</a>
