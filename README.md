@@ -112,9 +112,14 @@ Observer-Pattern
 
 <h3 name="Module"> javascript 模块化规范</h3>
  <h4>1. AMD</h4>
+>[https://github.com/wchaowu/javascript-code/tree/](https://github.com/wchaowu/javascript-code/tree/ "https://github.com/wchaowu/javascript-code/tree/")master/AMD
  <h4>2. CommonJS</h4>
+>[https://github.com/wchaowu/javascript-code/tree/master/CommonJS](https://github.com/wchaowu/javascript-code/tree/master/CommonJS "https://github.com/wchaowu/javascript-code/tree/master/CommonJS")
+
 <h3 name="html5">HTML5<h5>
+  Canvas
 <h3 name="NodeJs">Node.js</h3>
+
 ------------------------
 ## 推荐学习资源 ##
 
