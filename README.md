@@ -124,10 +124,13 @@ cmd和amd的区别
 <h3 name="NodeJs">Node.js</h3>
 
 ------------------------
-## 推荐学习资源 ##
 
-javascript风格和规范  
-[https://github.com/airbnb/javascript](https://github.com/airbnb/javascript "https://github.com/airbnb/javascript")  
+
+##javascript风格和规范  ##
+<ul><li><a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google的JavaScript风格指南</a>（以下简称Google）</li><li><a href="https://npmjs.org/doc/coding-style.html">NPM编码风格</a>（以下简称NPM）</li><li><a href="http://nodeguide.com/style.html">Felix的Node.js风格指南</a>（以下简称Node.js）</li><li><a href="https://github.com/rwldrn/idiomatic.js/">惯用（Idiomatic）的JavaScript</a>（以下简称Idiomatic）</li><li><a href="http://contribute.jquery.org/style-guide/js/">jQuery JavaScript风格指南</a>（以下简称jQuery）</li><li><a href="http://javascript.crockford.com/code.html">Douglas Crockford的JavaScript风格指南</a>（以下简称Crockford），Douglas Crockford是Web开发领域最知名的技术权威之一，
+ECMA JavaScript 2.0标准化委员会委员</li></ul>
+
+## 推荐学习资源 ##
 最受欢迎的javascript博客  
 [http://stackoverflow.com/questions/409056/top-rated-javascript-blogs](http://stackoverflow.com/questions/409056/top-rated-javascript-blogs "http://stackoverflow.com/questions/409056/top-rated-javascript-blogs")
 
