@@ -148,3 +148,9 @@ JavaScript frameworks resources and tutorials
  <a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a> <br />
  <a href="http://www.alloyteam.com">alloyteam</a>
 
+##License
+
+>And of course:
+
+MIT: http://rem.mit-license.org
+
