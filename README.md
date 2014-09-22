@@ -1,10 +1,9 @@
 --------------------------------------------------------------------------------
   <h3>Javascript代码</h3>
-  Version 1.0.0 <br/>
   Author:scott<br />
   有什么疑问和建议请发邮箱至Email:wchaowu@gmail.com <br />
   github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://github.com/wchaowu/</a><br />
-本人积累的一些javascript的写法，参考了dhtmlx套件框架，javascript设计模式书籍、Jquery源代码，QQ空间、webQQ和新浪微博。
+
 <a href="#referenceData">参考资料</a> 其中很多都是伪代码的写法，便有回顾和总结。
 包含 <br />
 <a href="#javascript-based" >javascript的基础语法</a> &nbsp;&nbsp;
@@ -119,8 +118,24 @@ Observer-Pattern
 cmd和amd的区别  
 [https://github.com/wchaowu/javascript-code/blob/master/CommonJS/cmd_Amd.md](https://github.com/wchaowu/javascript-code/blob/master/CommonJS/cmd_Amd.md "https://github.com/wchaowu/javascript-code/blob/master/CommonJS/cmd_Amd.md")
 
+###javascript框架
+####angularJs
+官方地址 [https://angularjs.org/](https://angularjs.org/)  
+推荐UI组件 angularUI bootstrap [http://angular-ui.github.io/bootstrap/](http://angular-ui.github.io/bootstrap/)  
+angular ui router [https://github.com/angular-ui/ui-router](https://github.com/angular-ui/ui-router)  
+bindonce[https://github.com/Pasvaz/bindonce](https://github.com/Pasvaz/bindonce)
+ngAnimate [https://github.com/Augus/ngAnimate](https://github.com/Augus/ngAnimate)
+
 <h3 name="html5">HTML5<h5>
   Canvas
+
+
+  mobile 开发 收集  
+[https://github.com/wchaowu/mobileTech](https://github.com/wchaowu/mobileTech "https://github.com/wchaowu/mobileTech")
+
+phonegap 
+
+[https://github.com/msacks/phonegap-samples](https://github.com/msacks/phonegap-samples "https://github.com/msacks/phonegap-samples")
 <h3 name="NodeJs">Node.js</h3>
 
 ------------------------
@@ -142,6 +157,10 @@ JavaScript frameworks resources and tutorials
 
 ## 工具   ##
 <a href="http://mahua.jser.me/">jser</a>  
+自动化工具  
+grunt  
+gulp  
+ [jsmonkey](https://github.com/wchaowu/jsMonkey "jsmonkey")
 
 ##参考资料 
  <a href="http://www.apress.com/" name="referenceData">http://www.apress.com/</a> <br />
