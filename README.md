@@ -1,10 +1,6 @@
 --------------------------------------------------------------------------------
   <h3>Javascript代码</h3>
-  Author:scott<br />
-  有什么疑问和建议请发邮箱至Email:wchaowu@gmail.com <br />
-  github:<a href="https://github.com/wchaowu/Javascript-Design-Patterns"> https://github.com/wchaowu/</a><br />
-
-<a href="#referenceData">参考资料</a> 其中很多都是伪代码的写法，便有回顾和总结。
+其中很多都是伪代码的写法，便有回顾和总结。<a href="#referenceData">参考资料</a> 
 包含 <br />
 <a href="#javascript-based" >javascript的基础语法</a> &nbsp;&nbsp;
 <a href="#oject-oriented">面向对象的实现</a>&nbsp;&nbsp;
