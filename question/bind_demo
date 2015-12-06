@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ <input type="button" id="button" />
+ 
+ <input type="text" id="text"  value="bind的使用"/>
+  <script type="text/javascript">
+  <!--
+	var button = document.getElementById("button"),
+    text = document.getElementById("text");
+	button.onclick = function() {
+		alert("id:"+this.id+" \nvalue:"+this.value); // 弹出text
+	}.bind(text);
+  //-->
+  </script>
+ </body>
+</html>
