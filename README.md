@@ -70,143 +70,30 @@ JavaScript 事件</a> <br />
 
 1. [jQuery 插件推荐](https://github.com/wchaowu/javascript-code/blob/master/jquery/)  
 
-2.<a href="https://github.com/wchaowu/javascript-code/blob/master/jquery/1_closure.js">
+2.<a href="https://github.com/wchaowu/javascript-code/blob/master/jquery/1_closure.js"> jQuery中 closure </a>
 
- jQuery中 closure
+<h3> Javascript-Design-Pattern </h3>
 
+1.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Singleton-Pattern"> Singleton-Pattern </a> <br />
+2.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/Chaining"> Chaining </a> <br />
+3.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Factory-Pattern">Factory-Pattern </a><br />
+4.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern"> Bridge-Pattern </a><br />
+5. <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern">Composite-Pattern</a> <br />
+6.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Facade-Pattern"> Facade-Pattern  </a><br />
+7. <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Adapter-Pattern">Adapter-Pattern
  </a>
+<br />
+8.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Decorator-Pattern"> Decorator-Pattern</a><br />
+9.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Flyweight-Pattern"> Flyweight-Pattern </a> <br />
+10.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Proxy-Pattern"> Proxy-Pattern  </a>  <br />
 
-<h3 name="JavascriptDesign">Javascript-Design-Pattern</h3>
+11.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Observer-Pattern">Observer-Pattern</a><br />
+12.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Command-Pattern"> Command-Pattern </a>  <br />
 
-1.
-
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Singleton-Pattern">
-
- Singleton-Pattern
-
- </a>
+13.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Chain-of-Responsibility-Pattern"> Chain-of-Responsibility-Pattern </a>
 
  <br />
-
-2.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/Chaining">
-
- Chaining
-
- </a>
-
- <br />
-
-3.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Factory-Pattern">
-
-Factory-Pattern
-
- </a>
-
-<br />
-
-4.
-
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern">
-
- Bridge-Pattern
-
- </a>
-
-<br />
-
-5.
-
- <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern">
-
-Composite-Pattern
-
-</a>
-
- <br />
-
-6.
-
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Facade-Pattern">
-
- Facade-Pattern
-
-  </a>
-
-<br />
-
-7.
-
- <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Adapter-Pattern">
-
-Adapter-Pattern
-
- </a>
-
-<br />
-
-8.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Decorator-Pattern">
-
- Decorator-Pattern
-
-</a>
-
-<br />
-
-9.
-
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Flyweight-Pattern">
-
- Flyweight-Pattern
-
- </a>
-
- <br />
-
-10.
-
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Proxy-Pattern">
-
- Proxy-Pattern
-
-  </a>
-
-  <br />
-
-11.
-
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Observer-Pattern">
-
-Observer-Pattern
-
-</a>
-
-<br />
-
-12.
-
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Command-Pattern">
-
- Command-Pattern
-
-  </a>
-
-  <br />
-
-13.
-
-<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Chain-of-Responsibility-Pattern">
-
- Chain-of-Responsibility-Pattern
-
- </a>
-
-
-
- <br />
-
-
-
-<h3 name="Question">Javascript-疑问</h3>
+<h3>Javascript-疑问</h3>
 
 1 function前加操作符
 
