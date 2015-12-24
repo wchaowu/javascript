@@ -61,8 +61,8 @@ JavaScript 事件</a> <br />
 
 
 <h3>Jquery</h3>
-
-[jQuery][1]  [jQuery架构设计与实现][2]
+[jQuery][1]  
+[jQuery架构设计与实现][2]
 [jQuery选择器库][3]
  <a href="https://github.com/madrobby/zepto#readme">zepto</a>
 
