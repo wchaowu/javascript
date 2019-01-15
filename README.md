@@ -1,10 +1,10 @@
 ---
 
-  <h3>Javascript代码</h3>
+ ## Javascript代码 
 
 其中很多都是伪代码的写法，便有回顾和总结。<a href="#referenceData">参考资料</a>
 
-包含 <br />
+包含   
 
 <a href="#javascript-based" >javascript 的基础语法</a> &nbsp;&nbsp;
 
@@ -26,74 +26,78 @@
 
  <h3 name="javascriptBase">Javascript based</h3>
 
-1.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/reference">对象 JavaScript 引用</a> <br />
+1.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/reference">对象 JavaScript 引用</a>   
 
-2.JavaScript this <br />
+2.JavaScript this  
 
 3.JavaScript 闭包
 
-<br />
+  
 
 4.
 
 <a href="https://github.com/wchaowu/javascript-code/blob/master/javascript-based/event.html">
 
-JavaScript 事件</a> <br />
+JavaScript 事件</a>   
 
-5.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/crossDomain.html">javascript 跨域</a> <br />
+5.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/crossDomain.html">javascript 跨域</a>   
 
-6.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/namespace">javascript 命名空间</a> <br />
+6.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/namespace">javascript 命名空间</a>  
 
 <h3 name="OjectOriented">Oject-Oriented</h3>
 
-1.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Expressive-JavaScript">JavaScript Expressive </a> <br />
+1.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Expressive-JavaScript">JavaScript Expressive </a>   
 
-2.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Interfaces"> Interfaces </a> <br />
+2.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Interfaces"> Interfaces </a>   
 
-3.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Introduction">Introduction</a> <br />
+3.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Introduction">Introduction</a>   
 
-4.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Inheritance"> Inheritance </a> <br />
+4.<a href="https://github.com/wchaowu/javascript-code/tree/master/object-oriented/Inheritance"> Inheritance </a>   
 
 5.AOP
 
-<h3>Jquery</h3>
-[jQuery][1]  
-[jQuery架构设计与实现][2]
-[jQuery选择器库][3]
- <a href="https://github.com/madrobby/zepto#readme">zepto</a>
+<h3>Jquery</h3>   
+[jQuery][1]    
+[jQuery架构设计与实现][2]  
+[jQuery选择器库][3]  
+ <a href="https://github.com/madrobby/zepto#readme">zepto</a>  
 
-<br />
+  
 
 1. [jQuery 插件推荐](https://github.com/wchaowu/javascript-code/blob/master/jquery/)
 
 2.<a href="https://github.com/wchaowu/javascript-code/blob/master/jquery/1_closure.js"> jQuery 中 closure </a>
 
-<h3> Javascript-Design-Pattern </h3>
+### Javascript-Design-Pattern 
 
-1.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Singleton-Pattern"> Singleton-Pattern </a> <br /> 2.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/Chaining"> Chaining </a> <br /> 3.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Factory-Pattern">Factory-Pattern </a><br /> 4.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern"> Bridge-Pattern </a><br />
+1.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Singleton-Pattern"> Singleton-Pattern </a> 
+2.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/Chaining"> Chaining </a>   
+3.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Factory-Pattern">Factory-Pattern </a>
+4.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern"> Bridge-Pattern </a>  
 
-5. <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern">Composite-Pattern</a> <br /> 6.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Facade-Pattern"> Facade-Pattern </a><br />
-6. <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Adapter-Pattern">Adapter-Pattern
+5. <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern">Composite-Pattern</a>   
+6.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Facade-Pattern"> Facade-Pattern </a>  
+7. <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Adapter-Pattern">Adapter-Pattern
    </a>
+8.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Decorator-Pattern"> Decorator-Pattern</a>
+9.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Flyweight-Pattern"> Flyweight-Pattern </a>    
+10.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Proxy-Pattern"> Proxy-Pattern </a>   
+11.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Observer-Pattern">Observer-Pattern</a>
+12.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Command-Pattern"> Command-Pattern </a>   
+13.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Chain-of-Responsibility-Pattern"> Chain-of-Responsibility-Pattern </a>
 
-   <br /> 8.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Decorator-Pattern"> Decorator-Pattern</a><br /> 9.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Flyweight-Pattern"> Flyweight-Pattern </a> <br /> 10.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Proxy-Pattern"> Proxy-Pattern </a> <br />
 
-   11.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Observer-Pattern">Observer-Pattern</a><br /> 12.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Command-Pattern"> Command-Pattern </a> <br />
-
-   13.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Chain-of-Responsibility-Pattern"> Chain-of-Responsibility-Pattern </a>
-
- <br />
 <h3>Javascript-疑问</h3>
 
 1 function 前加操作符
 
 <h3 name="Module"> javascript 模块化规范</h3>
 
- <h4>1. AMD</h4>
+#### 1. AMD
 
 > [https://github.com/wchaowu/javascript-code/tree/master/AMD](https://github.com/wchaowu/javascript-code/tree/master/AMD "https://github.com/wchaowu/javascript-code/tree/master/AMD")
 
- <h4>2. CommonJS</h4>
+#### 2. CommonJS
 
 > [https://github.com/wchaowu/javascript-code/tree/master/CommonJS](https://github.com/wchaowu/javascript-code/tree/master/CommonJS "https://github.com/wchaowu/javascript-code/tree/master/CommonJS")
 
@@ -117,11 +121,11 @@ bindonce[https://github.com/Pasvaz/bindonce](https://github.com/Pasvaz/bindonce)
 
 ngAnimate [https://github.com/Augus/ngAnimate](https://github.com/Augus/ngAnimate)
 
-<h3 name="html5">HTML5<h5>
+### HTML5
 
 Canvas
 
-###[ReactJs][4]
+### [ReactJs][4]
 
 mobile 开发 收集
 
@@ -135,13 +139,13 @@ phonegap
 
 ---
 
-<H2>兼容 </h2>
+## 兼容
 
 http://kangax.github.io/compat-table/es5/
 
 http://caniuse.com/#
 
-##javascript 风格和规范 ##
+## javascript 风格和规范
 
 <ul><li><a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google的JavaScript风格指南</a>（以下简称Google）</li><li><a href="https://npmjs.org/doc/coding-style.html">NPM编码风格</a>（以下简称NPM）</li><li><a href="http://nodeguide.com/style.html">Felix的Node.js风格指南</a>（以下简称Node.js）</li><li><a href="https://github.com/rwldrn/idiomatic.js/">惯用（Idiomatic）的JavaScript</a>（以下简称Idiomatic）</li><li><a href="http://contribute.jquery.org/style-guide/js/">jQuery JavaScript风格指南</a>（以下简称jQuery）</li><li><a href="http://javascript.crockford.com/code.html">Douglas Crockford的JavaScript风格指南</a>（以下简称Crockford），Douglas Crockford是Web开发领域最知名的技术权威之一，
 
@@ -183,15 +187,15 @@ JavaScript frameworks resources and tutorials
 
 [jsmonkey](https://github.com/wchaowu/jsMonkey "jsmonkey")
 
-##参考资料
+## 参考资料
 
-<a href="http://www.apress.com/" name="referenceData">http://www.apress.com/</a> <br />
+<a href="http://www.apress.com/" name="referenceData">http://www.apress.com/</a>
 
-<a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a> <br />
+<a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a>
 
 <a href="http://www.alloyteam.com">alloyteam</a>
 
-##License
+## License
 
 > And of course:
 
