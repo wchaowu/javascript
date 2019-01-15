@@ -20,11 +20,11 @@
 
 3.JavaScript 闭包
 
-4.<a href="https://github.com/wchaowu/javascript-code/blob/master/javascript-based/event.html">JavaScript 事件</a>
+4.<a href="https://github.com/wchaowu/javascript-code/blob/master/javascript-based/event.html">JavaScript 事件</a>  
 
 5.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/crossDomain.html">javascript 跨域</a>
 
-6.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/namespace">javascript 命名空间</a>
+6.<a href="https://github.com/wchaowu/javascript-code/tree/master/javascript-based/namespace">javascript 命名空间</a>  
 
 <h3 name="OjectOriented">Oject-Oriented</h3>
 
