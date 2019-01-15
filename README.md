@@ -44,7 +44,7 @@
 [jQuery选择器库][11]  
 [zepto][12]
 
-1. [jQuery 插件推荐](https://github.com/wchaowu/javascript-code/blob/master/jquery/)
+1.[jQuery 插件推荐](https://github.com/wchaowu/javascript-code/blob/master/jquery/)
 
 2.<a href="https://github.com/wchaowu/javascript-code/blob/master/jquery/1_closure.js"> jQuery 中 closure </a>
 
@@ -54,17 +54,15 @@
 2.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/Chaining"> Chaining </a>  
 3.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Factory-Pattern">Factory-Pattern </a>  
 4.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern"> Bridge-Pattern </a>
-
 5. <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Bridge-Pattern">Composite-Pattern</a>  
-   6.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Facade-Pattern"> Facade-Pattern </a>
-6. <a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Adapter-Pattern">Adapter-Pattern
-   </a>  
-   8.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Decorator-Pattern"> Decorator-Pattern</a>  
-   9.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Flyweight-Pattern"> Flyweight-Pattern </a>  
-   10.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Proxy-Pattern"> Proxy-Pattern </a>  
-   11.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Observer-Pattern">Observer-Pattern</a>  
-   12.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Command-Pattern"> Command-Pattern </a>  
-   13.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Chain-of-Responsibility-Pattern"> Chain-of-Responsibility-Pattern </a>
+6.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Facade-Pattern"> Facade-Pattern </a> 
+7.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Adapter-Pattern">Adapter-Pattern </a>    
+8.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Decorator-Pattern"> Decorator-Pattern</a>   
+9.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Flyweight-Pattern"> Flyweight-Pattern </a>  
+10.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Proxy-Pattern"> Proxy-Pattern </a>  
+11.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Observer-Pattern">Observer-Pattern</a>  
+12.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Command-Pattern"> Command-Pattern </a>  
+13.<a href="https://github.com/wchaowu/javascript-code/tree/master/JavaScript-Design-Patterns/The-Chain-of-Responsibility-Pattern">Chain-of-Responsibility-Pattern </a>
 
 <h3 name="Question"> Javascript-疑问  </h3>
 
